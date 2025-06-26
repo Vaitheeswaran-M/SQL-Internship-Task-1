@@ -27,12 +27,34 @@ Perform *Insert, **Update, and **Delete* operations on the Library Management Sy
 - Members  
 - Borrow_Records  
 
-### SQL Script:
-Includes:
-- INSERT INTO statements for adding rows  
-- Handling missing values using NULL or default  
-- UPDATE and DELETE statements with WHERE conditions  
+# SQL Internship Task 3
+
+### Objective:
+Extract data from one or more tables using basic SELECT queries.
+
+### Deliverables:
+- SQL script using SELECT, WHERE, ORDER BY, LIMIT clauses.
+
+### Tables Used:
+1. books
+    - book_id
+    - title
+    - author
+    - genre
+    - quantity
+
+2. members
+    - member_id
+    - name
+    - email
+    - phone
+
+3. borrow_records
+    - record_id
+    - member_id
+    - book_id
+    - borrow_date
+    - return_date
 
 ### Tools Used:
 - MySQL Workbench
-
